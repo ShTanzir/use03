@@ -1,76 +1,19 @@
 ```
-# Android build artifacts
+# Build artifacts
 build/
+.apk
+.aar
+# Dependencies
 .gradle/
-*.apk
-*.aar
-*.jar
-
-# Android studio
+node_modules/
+# IDE files
 .idea/
-*.iml
-*.iws
+.vscode/
+# Temp files
+*.tmp
 *.log
-
-# Gradle
-.gradle/
-gradle-wrapper.jar
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Keystore properties
-keystore.properties
-
-# Log Files
-*.log
-
-# Built application files
-*.apk
-*.ap_
-*.aab
-
-# Files for the ART/Dalvik VM
-*.dex
-
-# Java class files
-*.class
-
-# Generated files
-gen/
-out/
-
-# Debug & Release folders
-debug/
-release/
-
-# Coverage reports
-coverage/
-*.ec
-
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
-
-# Python related (if any Python scripts in project)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/modules/
 ```
