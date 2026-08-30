@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme - Dark Mode -->
+    <style name="Theme.MODFLOW.Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/modflow_primary_light</item>
+        <item name="colorPrimaryDark">@color/modflow_primary</item>
+        <item name="colorAccent">@color/modflow_accent</item>
+        <item name="android:windowBackground">#121212</item>
+        <item name="android:statusBarColor">#0D47A1</item>
+        <item name="android:navigationBarColor">#1E1E1E</item>
+    </style>
+</resources>
