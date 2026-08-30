@@ -119,4 +119,14 @@ public class Project implements Serializable {
         this.patchCount++;
         this.lastModifiedTime = System.currentTimeMillis();
     }
+    
+    public Workflow getCurrentWorkflow() {
+        // For now, return a default workflow if none exists
+        // In a full implementation, this would load from storage
+        if (currentWorkflowId == null) {
+            return new Workflow("Default Workflow");
+        }
+        // Would need to load from storage - simplified for now
+        return new Workflow();
+    }
 }
